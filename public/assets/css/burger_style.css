@@ -1,0 +1,29 @@
+body {
+	background-color: #b2c0ff;
+}
+
+.container {
+	margin-top: 50px;
+}
+#burgerImg {
+	height: 200px;
+	width: 250px;
+}
+
+#burgerBox {
+	text-align: center;
+	margin: 0 auto;
+	width: 300px;
+}
+
+#createButton {
+	text-align: center;
+}
+
+h1, h5 {
+	text-align: center;
+}
+
+li {
+	font-weight: bold;
+}

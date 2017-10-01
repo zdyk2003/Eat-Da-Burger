@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset= "UTF-8">
+	<title>Eat Da Burger</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/burger_style.css">
+
+</head>
+<body>
+
+<div class="container">
+	<div class="text-center">
+  		<img src="assets/images/burger.png" class="rounded" alt="cartoon hamburger image" id = "burgerImg">
+	</div>
+	<br>
+	<h1>Eat-Da-Burger</h1>
+	<hr>
+<!-- where burger orders are placed -->
+	<div class = "container">
+		<div class="row">
+	        <div class="col-sm-3">
+	          <div id = "burgerOrder"></div>
+	        </div>
+	    </div>
+
+	    <div class="row">
+	        <div class="col-sm-3">
+	          <div id = "burgerSpace"></div>
+	        </div>
+	    </div>
+
+	    <div class="row">
+	        <div class="col-sm-3">
+	          <div id = "devoured"></div>
+	        </div>
+	    </div>
+	</div>
+<!-- where user types in the burger order -->
+	<form action = "/" method = "POST">
+		<div class = "col-lg-4 center-block" id = "burgerBox">
+		    <textarea type= "text" name = "burger_name"  rows="3"></textarea>
+	  	</div>
+		<br>
+		<div id= "createButton">
+			<button type="button" class="btn btn-danger">Create Burger</button>
+		</div>
+	</form>
+	<br>
+	<h5>Enter a burger name you want to eat and 
+		<br> click the "Create Burger" button
+	</h5>
+
+</div>
+
+
+</body>
+</html>
