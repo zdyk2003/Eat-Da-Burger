@@ -1,4 +1,4 @@
-# burger
+# Eat-Da-Burger
 
 This is a full stack app where the user can enter any type of burger they would like to eat and then "eat it."
 
